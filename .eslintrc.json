@@ -1,0 +1,17 @@
+{
+	"root": true,
+	"extends": ["@growflow"],
+	"parserOptions": { "project": "tsconfig.json" },
+	"rules": {
+		"react/no-array-index-key": "off",
+		"unicorn/no-null": "off",
+		// have to disable a href requirement because of how next/link works
+		"jsx-a11y/anchor-is-valid": "off",
+		"unicorn/filename-case": "off",
+		"react/jsx-pascal-case": [2, { "allowNamespace": true }],
+		// this rule throws false positives on keys in interfaces like 'blockType'
+		"react/no-unused-prop-types": "off",
+		// end the carriage return madness
+		"prettier/prettier": ["error", { "endOfLine": "auto" }]
+	}
+}
