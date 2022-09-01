@@ -4,7 +4,7 @@ import * as Accordion from "@radix-ui/react-accordion";
 
 export default function Faqs() {
 	return (
-		<Accordion.Root type="multiple">
+		<Accordion.Root type="multiple" className="accordion">
 			<Accordion.Item value="faq1-1">
 				<Accordion.Header>
 					<Accordion.Trigger>

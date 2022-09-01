@@ -38,8 +38,23 @@ const theme: Theme = {
 		},
 	},
 	styles: {
+		h2: {
+			borderTop: "4px solid",
+			borderColor: "text",
+			backgroundImage:
+				"url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABVJREFUGFdjZGBg8GVgYNjMyAABvgALrgFQQ0xB3AAAAABJRU5ErkJggg==)",
+			backgroundRepeat: "repeat",
+			pl: 2,
+			lineHeight: "1em",
+			fontSize: 4,
+		},
 		root: {
 			color: "text",
+			"h2,h3,h4,h5": {
+				fontFamily: "heading",
+				lineHeight: "1em",
+				py: 2,
+			},
 			h1: {
 				fontFamily: "headingAlt",
 				color: "primary",
@@ -51,6 +66,7 @@ const theme: Theme = {
 				display: "inline-block",
 				fontSize: "2.5vw",
 				my: 0,
+				pb: 0,
 				"&:after": {
 					content: `''`,
 					backgroundColor: "accent",
@@ -61,15 +77,33 @@ const theme: Theme = {
 					ml: ".3em",
 				},
 			},
-			"h2,h3,h4,h5": {
-				fontFamily: "heading",
-				lineHeight: "1em",
-				py: 2,
-			},
-			patternBg: {
-				backgroundColor:
-					"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABVJREFUGFdjZGBgSGNgYJjFyAABaQAMKwFp9m3g7wAAAABJRU5ErkJggg==",
-				backgroundRepeat: "repeat",
+			".accordion": {
+				h3: {
+					backgroundImage:
+						"url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABVJREFUGFdjZGBg8GVgYNjMyAABvgALrgFQQ0xB3AAAAABJRU5ErkJggg==)",
+					backgroundRepeat: "repeat",
+					display: "block",
+
+					pt: 0,
+					button: {
+						cursor: "pointer",
+						fontSize: "2vw",
+						fontFamily: "heading",
+						background: "none",
+						display: "flex",
+						justifyContent: "space-between",
+						alignItems: "center",
+						width: "100%",
+						pl: 2,
+						svg: {
+							width: "2em",
+						},
+					},
+					"&:after": {
+						height: ".1em",
+						display: "none",
+					},
+				},
 			},
 		},
 	},
