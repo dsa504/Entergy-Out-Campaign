@@ -43,7 +43,14 @@ export default function Faqs() {
 						<Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
-				<Accordion.Content />
+				<Accordion.Content>
+					<p>
+						Yes! Many of the largest cities in the country, like Los Angeles,
+						Memphis and Austin, are publicly-owned. And here in Louisiana
+						Lafayette, Alexandria, Monroe, Natchitoches, and Terrebonne Parish
+						all operate their own utilities.
+					</p>
+				</Accordion.Content>
 			</Accordion.Item>
 			<Accordion.Item value="faq-4">
 				<Accordion.Header>

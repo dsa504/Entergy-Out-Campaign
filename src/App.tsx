@@ -21,7 +21,7 @@ export const App = () => {
 				<Container>
 					<section
 						sx={{
-							mx: 2,
+							mx: [2, null],
 						}}
 					>
 						<div
@@ -32,7 +32,7 @@ export const App = () => {
 							<div
 								sx={{
 									fontFamily: "heading",
-									fontSize: ["8vw", "4vw"],
+									fontSize: ["8.2vw", "70px"],
 									lineHeight: ".85em",
 									pt: ["9vw", "1vw"],
 									display: ["block", "inline-block"],
@@ -48,7 +48,7 @@ export const App = () => {
 							</div>
 							<h1
 								sx={{
-									fontSize: ["17.5vw", "11.5vw"],
+									fontSize: ["18vw", "160px"],
 									lineHeight: ".8em",
 									m: 0,
 									pt: 2,
@@ -68,7 +68,7 @@ export const App = () => {
 						<Themed.h2>What we're fighting for</Themed.h2>
 						<div
 							sx={{
-								border: "1px solid",
+								border: [null, "1px solid"],
 								py: 1,
 								px: 3,
 								boxShadow: "5px 6px #020310",
@@ -80,17 +80,19 @@ export const App = () => {
 								While New Orleanians have suffered through COVID, hurricanes,
 								and record heat with little to no assistance, Entergy New
 								Orleans is guaranteed a 9.35% profit every year, regardless of
-								conditions. New Orleans has some of the highest energy-cost
-								burdens in the country, and half of all low-income families in
-								New Orleans spend over 10% of their income on electricity.
-								Entergy’s CEO, Leo Denault, made over $17m. It’s time for
-								Entergy to pay their fair share, and for City Council to stop
-								guaranteeing corporate profits.
+								conditions. New Orleans has some of the{" "}
+								<a href="https://www.aceee.org/sites/default/files/pdf/fact-sheet/ses-louisiana-100917.pdf">
+									highest energy-cost burdens in the country
+								</a>
+								, and half of all low-income families in New Orleans spend over
+								10% of their income on electricity. Entergy’s CEO, Leo Denault,
+								made over $17m. It’s time for Entergy to pay their fair share,
+								and for City Council to stop guaranteeing corporate profits.
 							</p>
 						</div>
 						<div
 							sx={{
-								border: "1px solid",
+								border: [null, "1px solid"],
 								py: 1,
 								px: 3,
 								boxShadow: "5px 6px #020310",
@@ -109,7 +111,7 @@ export const App = () => {
 						</div>
 						<div
 							sx={{
-								border: "1px solid",
+								border: [null, "1px solid"],
 								py: 1,
 								px: 3,
 								boxShadow: "5px 6px #020310",
@@ -118,10 +120,14 @@ export const App = () => {
 						>
 							<h3>Repair the Grid, No More Fees</h3>
 							<p>
-								In 2017, a City Council report found that more than 1/3 of the
-								prior year’s outages were caused by equipment failure. What are
-								we getting for our money? It's us or them/Climate Change hiring
-								and training working class residents of New Orleans to do so
+								In 2017, a{" "}
+								<a href="https://www.documentcloud.org/documents/21066044-advisors-prudence-investigation">
+									City Council
+								</a>{" "}
+								report found that more than 1/3 of the prior year’s outages were
+								caused by equipment failure. What are we getting for our money?
+								It's us or them/Climate Change hiring and training working class
+								residents of New Orleans to do so
 							</p>
 						</div>
 					</section>

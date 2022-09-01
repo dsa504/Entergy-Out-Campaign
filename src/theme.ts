@@ -1,7 +1,7 @@
 import type { Theme } from "theme-ui";
 
 const theme: Theme = {
-	breakpoints: ["40em", "64em"],
+	breakpoints: ["1160px"],
 	space: [0, 8, 16, 32, 64, 128, 256],
 	fontSizes: [13, 16, 21, 25, 33, 49, 65, 97],
 	fonts: {
@@ -46,6 +46,7 @@ const theme: Theme = {
 			lineHeight: "1em",
 			fontSize: 5,
 			mt: 4,
+			mb: [0, null],
 		},
 		root: {
 			color: "text",
@@ -59,12 +60,13 @@ const theme: Theme = {
 				color: "primary",
 			},
 			h2: {
-				/* header h2 */
-				fontSize: ["6vw", 5],
+				/* hero h2 */
+				fontSize: [4, 5],
+				px: [1, null],
 			},
 			h3: {
 				display: "inline-block",
-				fontSize: "2.5vw",
+				fontSize: ["8vw", "2.5vw"],
 				my: 0,
 				pb: 0,
 				"&:after": {
@@ -100,16 +102,18 @@ const theme: Theme = {
 						borderBottom: 0,
 
 						cursor: "pointer",
-						fontSize: "2vw",
+						fontSize: ["24px", "2vw"],
 						fontFamily: "heading",
 						background: "none",
 						display: "flex",
 						justifyContent: "space-between",
 						alignItems: "center",
+						textAlign: "left",
 						width: "100%",
 						pl: 2,
+						py: [2, null],
 						svg: {
-							width: "2em",
+							width: ["8vw", "2em"],
 						},
 					},
 					"&:after": {

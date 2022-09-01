@@ -25,7 +25,7 @@ export default function EmailForm() {
 				>
 					Join the fight to{" "}
 					<span sx={{ color: "primary" }}>
-						end Entergy’s <br />
+						end Entergy’s <br sx={{ display: ["none", null] }} />
 						exploitation
 					</span>{" "}
 					of New Orleans.
@@ -48,7 +48,7 @@ export default function EmailForm() {
 						fontSize: 2,
 						p: 2,
 						display: "block",
-						maxWidth: "380px",
+						maxWidth: ["90%", "380px"],
 						mx: "auto",
 						width: "100%",
 						boxShadow: "5px 6px #020310",
@@ -60,7 +60,7 @@ export default function EmailForm() {
 				<Button
 					sx={{
 						width: "100%",
-						maxWidth: "380px",
+						maxWidth: ["90%", "380px"],
 						cursor: "pointer",
 					}}
 				>
