@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import "./App.css";
 
 // import React from "react";
@@ -7,23 +8,52 @@ import EmailForm from "./components/EmailForm";
 import Faqs from "./components/Faqs";
 import theme from "./theme";
 
-function App() {
+export const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
-			<div>
+			<div
+				sx={{
+					fontFamily: "body",
+				}}
+			>
 				<header />
 				<Container>
-					<section>
+					<section
+						sx={{
+							mx: 4,
+						}}
+					>
 						<div>
-							<div>
-								Entergy made <span>$1.2 billion</span> <br />
-								in profits last year. <br />
+							<div
+								sx={{
+									fontFamily: "heading",
+									fontSize: ["8vw", "7.5vw"],
+									lineHeight: ".85em",
+									pt: "9vw",
+								}}
+							>
+								Entergy made <span sx={{ color: "primary" }}>$1.2 billion</span>{" "}
+								<br />
+								last year in profits. <br />
 								Entergy needs us.
 							</div>
-							<h1>We Don't Need Entergy</h1>
+							<h1
+								sx={{
+									fontSize: ["18vw", "17vw"],
+									lineHeight: ".8em",
+									m: 0,
+									pt: 2,
+								}}
+							>
+								We Don't <br /> Need Entergy
+							</h1>
 						</div>
 					</section>
-					<section>
+					<section
+						sx={{
+							backgroundColor: "yellow",
+						}}
+					>
 						<EmailForm />
 					</section>
 					<section>
@@ -66,6 +96,6 @@ function App() {
 			</div>
 		</ThemeProvider>
 	);
-}
+};
 
 export default App;
