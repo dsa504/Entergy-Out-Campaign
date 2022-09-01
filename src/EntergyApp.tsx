@@ -8,7 +8,7 @@ import EmailForm from "./components/EmailForm";
 import Faqs from "./components/Faqs";
 import theme from "./theme";
 
-export const App = () => {
+const EntergyApp = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<div
@@ -154,4 +154,4 @@ export const App = () => {
 	);
 };
 
-export default App;
+export default EntergyApp;
