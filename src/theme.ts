@@ -45,11 +45,15 @@ const theme: Theme = {
 			pl: 2,
 			lineHeight: "1em",
 			fontSize: 5,
-			mt: 4,
-			mb: [0, null],
+			mt: [0, 4],
+			mb: [0, 2],
 		},
 		root: {
 			color: "text",
+			"a, a:visited": {
+				color: "primary",
+				textDecoration: "none",
+			},
 			"h2,h3,h4,h5": {
 				fontFamily: "heading",
 				lineHeight: "1em",
@@ -134,6 +138,8 @@ const theme: Theme = {
 				height: "140px",
 				backgroundColor: "text",
 				color: "paper",
+				p: 2,
+				textAlign: "center",
 			},
 		},
 	},
