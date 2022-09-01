@@ -21,16 +21,24 @@ export const App = () => {
 				<Container>
 					<section
 						sx={{
-							mx: [2, 2, 4],
+							mx: 2,
 						}}
 					>
-						<div>
+						<div
+							sx={{
+								textAlign: "center",
+							}}
+						>
 							<div
 								sx={{
 									fontFamily: "heading",
-									fontSize: ["8vw", "7.5vw"],
+									fontSize: ["8vw", "4vw"],
 									lineHeight: ".85em",
-									pt: "9vw",
+									pt: ["9vw", "1vw"],
+									display: ["block", "inline-block"],
+									width: [null, "normal"],
+									mx: [null, "auto"],
+									textAlign: "left",
 								}}
 							>
 								Entergy made <span sx={{ color: "primary" }}>$1.2 billion</span>{" "}
@@ -40,10 +48,13 @@ export const App = () => {
 							</div>
 							<h1
 								sx={{
-									fontSize: ["17.5vw", "17vw"],
+									fontSize: ["17.5vw", "11.5vw"],
 									lineHeight: ".8em",
 									m: 0,
 									pt: 2,
+									width: [null, "normal"],
+									mx: [null, "auto"],
+									textAlign: "left",
 								}}
 							>
 								We Don't <br /> Need Entergy
@@ -119,6 +130,9 @@ export const App = () => {
 
 						<Faqs />
 					</section>
+					<footer>
+						<p>blah</p>
+					</footer>
 				</Container>
 			</div>
 		</ThemeProvider>

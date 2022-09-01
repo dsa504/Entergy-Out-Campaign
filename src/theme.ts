@@ -28,7 +28,7 @@ const theme: Theme = {
 	colors: {
 		primary: "#ed1685",
 		accent: "#e5ff37",
-		white: "#fff",
+		paper: "#fff",
 		text: "#020310",
 	},
 	buttons: {
@@ -39,14 +39,13 @@ const theme: Theme = {
 	},
 	styles: {
 		h2: {
-			borderTop: "4px solid",
-			borderColor: "text",
-			backgroundImage:
-				"url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABVJREFUGFdjZGBg8GVgYNjMyAABvgALrgFQQ0xB3AAAAABJRU5ErkJggg==)",
-			backgroundRepeat: "repeat",
+			/* main h2 styles */
+			borderTop: "5px solid",
+			borderColor: "primary",
 			pl: 2,
 			lineHeight: "1em",
-			fontSize: 4,
+			fontSize: 5,
+			mt: 4,
 		},
 		root: {
 			color: "text",
@@ -60,6 +59,7 @@ const theme: Theme = {
 				color: "primary",
 			},
 			h2: {
+				/* header h2 */
 				fontSize: ["6vw", 5],
 			},
 			h3: {
@@ -78,14 +78,27 @@ const theme: Theme = {
 				},
 			},
 			".accordion": {
+				pb: 3,
 				h3: {
+					display: "block",
+					pt: 0,
 					backgroundImage:
 						"url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABVJREFUGFdjZGBg8GVgYNjMyAABvgALrgFQQ0xB3AAAAABJRU5ErkJggg==)",
 					backgroundRepeat: "repeat",
-					display: "block",
-
-					pt: 0,
+					backgroundColor: "rgba(229,255,55,0)",
+					span: {
+						transition: "background-color .2s ease-out",
+					},
+					'&[data-state="open"]': {
+						borderBottom: "2px solid",
+						span: {
+							backgroundColor: "accent",
+						},
+					},
+					'&[data-state="closed"]': {},
 					button: {
+						borderBottom: 0,
+
 						cursor: "pointer",
 						fontSize: "2vw",
 						fontFamily: "heading",
@@ -104,6 +117,19 @@ const theme: Theme = {
 						display: "none",
 					},
 				},
+				p: {
+					my: 2,
+					mx: 2,
+				},
+				"& div:last-of-type h3": {
+					borderBottom: "2px solid",
+				},
+			},
+			footer: {
+				width: "100%",
+				height: "140px",
+				backgroundColor: "text",
+				color: "paper",
 			},
 		},
 	},

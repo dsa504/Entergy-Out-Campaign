@@ -8,7 +8,7 @@ export default function Faqs() {
 			<Accordion.Item value="faq1-1">
 				<Accordion.Header>
 					<Accordion.Trigger>
-						Who is organizing this? <Icon path={mdiChevronDown} />
+						<span>Who is organizing this?</span> <Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
 				<Accordion.Content>
@@ -21,7 +21,8 @@ export default function Faqs() {
 			<Accordion.Item value="faq-2">
 				<Accordion.Header>
 					<Accordion.Trigger>
-						What's the alternative to Entergy? <Icon path={mdiChevronDown} />
+						<span>What's the alternative to Entergy?</span>{" "}
+						<Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
 				<Accordion.Content>
@@ -38,7 +39,8 @@ export default function Faqs() {
 			<Accordion.Item value="faq-3">
 				<Accordion.Header>
 					<Accordion.Trigger>
-						Do other cities have municipal power? <Icon path={mdiChevronDown} />
+						<span>Do other cities have municipal power?</span>{" "}
+						<Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
 				<Accordion.Content />
@@ -46,7 +48,7 @@ export default function Faqs() {
 			<Accordion.Item value="faq-4">
 				<Accordion.Header>
 					<Accordion.Trigger>
-						Didn't Entergy agree to a moratorium on shutoffs?{" "}
+						<span>Didn't Entergy agree to a moratorium on shutoffs? </span>
 						<Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
@@ -55,7 +57,8 @@ export default function Faqs() {
 			<Accordion.Item value="faq-5">
 				<Accordion.Header>
 					<Accordion.Trigger>
-						My bill is insane! What can I do? <Icon path={mdiChevronDown} />
+						<span>My bill is insane! What can I do?</span>{" "}
+						<Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
 				<Accordion.Content />
@@ -63,7 +66,8 @@ export default function Faqs() {
 			<Accordion.Item value="faq-6">
 				<Accordion.Header>
 					<Accordion.Trigger>
-						How can I help fight back? <Icon path={mdiChevronDown} />
+						<span>How can I help fight back?</span>{" "}
+						<Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
 				<Accordion.Content />
