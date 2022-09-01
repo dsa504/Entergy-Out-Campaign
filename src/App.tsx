@@ -14,13 +14,14 @@ export const App = () => {
 			<div
 				sx={{
 					fontFamily: "body",
+					fontSize: 2,
 				}}
 			>
 				<header />
 				<Container>
 					<section
 						sx={{
-							mx: 4,
+							mx: [2, 2, 4],
 						}}
 					>
 						<div>
@@ -39,7 +40,7 @@ export const App = () => {
 							</div>
 							<h1
 								sx={{
-									fontSize: ["18vw", "17vw"],
+									fontSize: ["17.5vw", "17vw"],
 									lineHeight: ".8em",
 									m: 0,
 									pt: 2,
@@ -49,14 +50,10 @@ export const App = () => {
 							</h1>
 						</div>
 					</section>
-					<section
-						sx={{
-							backgroundColor: "yellow",
-						}}
-					>
+					<section>
 						<EmailForm />
 					</section>
-					<section>
+					<section sx={{ maxWidth: "normal", mx: "auto" }}>
 						<h2>What we're fighting for</h2>
 						<h3>End Entergy’s Guaranteed Profits</h3>
 						<p>
@@ -87,7 +84,7 @@ export const App = () => {
 							training working class residents of New Orleans to do so
 						</p>
 					</section>
-					<section>
+					<section sx={{ maxWidth: "normal", mx: "auto" }}>
 						<h2>Frequently Asked Questions</h2>
 
 						<Faqs />
