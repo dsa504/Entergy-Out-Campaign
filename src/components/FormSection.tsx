@@ -115,12 +115,13 @@ export default function FormSection({
 						<Dialog.Close
 							sx={{
 								position: "absolute",
-								top: 0,
-								right: 0,
+								top: "5px",
+								right: "20px",
 								zIndex: 10,
 								color: "black",
 								border: 0,
 								background: "transparent",
+								cursor: "pointer",
 							}}
 						>
 							<Icon path={mdiArrowLeft} sx={{ width: "48px" }} />
