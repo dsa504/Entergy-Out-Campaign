@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 
 // import React from "react";
+import { useState } from "react";
 import { Container, Themed, ThemeProvider } from "theme-ui";
 
 import Faqs from "./components/Faqs";
@@ -10,6 +11,10 @@ import Hero from "./components/Hero";
 import theme from "./theme";
 
 const EntergyApp = () => {
+	const [emailFormOpen, setEmailFormOpen] = useState(false);
+	const toggleEmailForm = () => {
+		setEmailFormOpen(!emailFormOpen);
+	};
 	return (
 		<ThemeProvider theme={theme}>
 			<div
@@ -18,7 +23,7 @@ const EntergyApp = () => {
 					fontSize: 2,
 				}}
 			>
-				<Header />
+				<Header formhandler={toggleEmailForm} />
 
 				<Container>
 					<section
@@ -30,7 +35,10 @@ const EntergyApp = () => {
 						<Hero />
 					</section>
 					<section>
-						<FormSection />
+						<FormSection
+							formopen={emailFormOpen}
+							formhandler={toggleEmailForm}
+						/>
 					</section>
 					<section sx={{ maxWidth: "normal", mx: "auto" }}>
 						<Themed.h2>We Demand:</Themed.h2>

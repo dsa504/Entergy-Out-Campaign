@@ -1,5 +1,12 @@
+import { Dispatch, SetStateAction } from "react";
+import { Button } from "theme-ui";
+
 /** @jsxImportSource theme-ui */
-export default function Header() {
+export default function Header({
+	formhandler,
+}: {
+	formhandler: Dispatch<SetStateAction<boolean>>;
+}) {
 	return (
 		<>
 			<div
@@ -19,7 +26,7 @@ export default function Header() {
 						px: [2, null],
 						display: "inline-flex",
 						justifyContent: "space-between",
-						alignItems: ["center", "flex-start"],
+						alignItems: ["flex-start", "flex-start"],
 					}}
 				>
 					<img
@@ -37,8 +44,9 @@ export default function Header() {
 							listStyleType: "none",
 							px: 0,
 							display: "inline-flex",
-							width: ["180px", null],
+							width: ["240px", "auto"],
 							textAlign: ["center", null],
+							alignItems: "center",
 							li: {
 								pl: 3,
 								fontFamily: "heading",
@@ -50,20 +58,32 @@ export default function Header() {
 					>
 						<li
 							sx={{
-								display: ["none", null],
+								display: ["none", "block"],
 							}}
 						>
 							<a href="">The Demands</a>
 						</li>
 						<li
 							sx={{
-								display: ["none", null],
+								display: ["none", "block"],
 							}}
 						>
 							<a href="">FAQs</a>
 						</li>
-						<li>
-							<a href="">Sign the Pledge</a>
+						<li sx={{ pr: 1 }}>
+							<Button
+								onClick={() => formhandler(true)}
+								sx={{
+									fontFamily: "heading",
+									borderRadius: "8px",
+									fontSize: 1,
+									px: 2,
+									py: 1,
+									backgroundColor: "black",
+								}}
+							>
+								Sign the Pledge
+							</Button>
 						</li>
 					</ul>
 				</div>

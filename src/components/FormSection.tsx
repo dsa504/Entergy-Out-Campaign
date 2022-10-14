@@ -2,11 +2,18 @@
 import { mdiArrowLeft } from "@mdi/js";
 import Icon from "@mdi/react";
 import * as Dialog from "@radix-ui/react-dialog";
+import { Dispatch, SetStateAction } from "react";
 
 // import { Button } from "theme-ui";
 import EmailForm from "./EmailForm";
 
-export default function FormSection() {
+export default function FormSection({
+	formopen,
+	formhandler,
+}: {
+	formopen: boolean;
+	formhandler: Dispatch<SetStateAction<boolean>>;
+}) {
 	return (
 		<div
 			sx={{
@@ -76,7 +83,7 @@ export default function FormSection() {
 					</ul>
 				</div>
 
-				<Dialog.Root>
+				<Dialog.Root open={formopen} onOpenChange={formhandler}>
 					<Dialog.Trigger
 						sx={{
 							width: "100%",
