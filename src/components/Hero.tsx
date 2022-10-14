@@ -6,7 +6,7 @@ export default function Hero() {
 				textAlign: "center",
 				display: ["block", "flex"],
 				alignItems: "center",
-				pt: "160px",
+				pt: "120px",
 				pb: 4,
 			}}
 		>
@@ -19,6 +19,7 @@ export default function Hero() {
 					display: "block",
 					mx: "auto",
 					pl: "5vw",
+					pt: "3vw",
 				}}
 			/>
 			<div

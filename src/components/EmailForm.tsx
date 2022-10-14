@@ -61,9 +61,8 @@ export default function EmailForm() {
 						</li>
 						<li>
 							We are <b>organizing 10,000 of our fellow New Orleanians</b> to
-							pledge to
-							<b>stop paying Entergy bills</b> until Entergy (or the New Orleans
-							City Council) addresses these demands.
+							pledge to <b>stop paying Entergy bills</b> until Entergy (or the
+							New Orleans City Council) addresses these demands.
 						</li>
 						<li>
 							Once we reach 10,000 pledges, we will <b>begin the strike.</b>
