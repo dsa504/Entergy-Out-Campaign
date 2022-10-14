@@ -21,7 +21,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "jsxImportSource": "theme-ui"
+    "jsxImportSource": "theme-ui",
+    "baseUrl": ".",
   },
   "include": [
     "**/*.ts", "**/*.tsx"
