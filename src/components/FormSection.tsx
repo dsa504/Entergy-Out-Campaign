@@ -87,6 +87,7 @@ export default function FormSection() {
 							py: 1,
 							fontFamily: "heading",
 							boxShadow: "5px 6px #ff2a5b",
+							border: 0,
 						}}
 					>
 						Sign the Pledge

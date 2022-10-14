@@ -16,19 +16,20 @@ export default function Header() {
 						width: ["100%", "1200px"],
 						textAlign: "left",
 						mx: "auto",
+						px: [2, null],
 						display: "inline-flex",
 						justifyContent: "space-between",
-						alignItems: "flex-start",
+						alignItems: ["center", "flex-start"],
 					}}
 				>
 					<img
 						src="./images/make-entergy-pay-logo.svg"
 						alt="Make Entergy Pay"
 						sx={{
-							width: "15vw",
+							width: ["25vw", "15vw"],
 							maxWidth: "140px",
 							display: "block",
-							pt: "20px",
+							pt: ["10px", "20px"],
 						}}
 					/>
 					<ul
@@ -40,18 +41,27 @@ export default function Header() {
 								pl: 3,
 								fontFamily: "heading",
 								fontSize: 3,
-								pt: "8px",
+								pt: [0, "8px"],
+								lineHeight: "1em",
 							},
 						}}
 					>
-						<li>
-							<a href="">Sign the Pledge</a>
-						</li>
-						<li>
+						<li
+							sx={{
+								display: ["none", null],
+							}}
+						>
 							<a href="">The Demands</a>
 						</li>
-						<li>
+						<li
+							sx={{
+								display: ["none", null],
+							}}
+						>
 							<a href="">FAQs</a>
+						</li>
+						<li>
+							<a href="">Sign the Pledge</a>
 						</li>
 					</ul>
 				</div>

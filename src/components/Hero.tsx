@@ -14,19 +14,19 @@ export default function Hero() {
 				src="./images/angry-entergy.min.svg"
 				alt="Make Entergy Pay"
 				sx={{
-					width: ["40%"],
+					width: ["80%", "40%"],
 					height: "auto",
 					display: "block",
 					mx: "auto",
-					pl: "5vw",
+					pl: [0, "5vw"],
 					pt: "3vw",
 				}}
 			/>
 			<div
 				sx={{
 					fontFamily: "heading",
-					width: ["60%"],
-					fontSize: ["7.5vw", "5vw"],
+					width: ["100%", "60%"],
+					fontSize: ["8.5vw", "5vw"],
 					textTransform: "uppercase",
 					lineHeight: ".85em",
 					pt: ["8vw", "1vw"],
