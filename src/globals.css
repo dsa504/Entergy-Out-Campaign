@@ -3,7 +3,10 @@
 }
 
 @font-face {
-  font-family: "Champion Gothic Heavyweight";  
+  font-display: fallback;
+  font-family: "Champion Gothic Heavyweight";
+  src: 
+    url("./fonts/ChampionGothic-Heavyweight.eot") ;
   src: 
     url("./fonts/ChampionGothic-Heavyweight.ttf") format("truetype")
     url("./fonts/ChampionGothic-Heavyweight.woff") format("woff")
@@ -11,7 +14,10 @@
     ;
 }
 @font-face {
+  font-display: fallback;
 font-family: "Champion Gothic Middleweight";  
+src: 
+    url("./fonts/ChampionGothic-Middleweight.eot");
   src: 
     url("./fonts/ChampionGothic-Middleweight.ttf") format("truetype")
     url("./fonts/ChampionGothic-Middleweight.woff") format("woff")
@@ -19,7 +25,10 @@ font-family: "Champion Gothic Middleweight";
     ;
 }
 @font-face {
-  font-family: "Champion Gothic Featherweight";  
+  font-display: fallback;
+  font-family: "Champion Gothic Featherweight"; 
+  src: 
+      url("./fonts/ChampionGothic-Featherweight.eot"); 
     src: 
       url("./fonts/ChampionGothic-Featherweight.ttf") format("truetype")
       url("./fonts/ChampionGothic-Featherweight.woff") format("woff")
