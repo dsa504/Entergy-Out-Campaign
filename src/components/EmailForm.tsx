@@ -5,9 +5,12 @@ export default function EmailForm() {
 	return (
 		<div
 			sx={{
-				backgroundColor: "accent",
+				backgroundColor: "black",
 				textAlign: "center",
+				color: "primary",
 				pb: 4,
+				pt: 0,
+				mt: 0,
 			}}
 		>
 			<div
@@ -18,17 +21,16 @@ export default function EmailForm() {
 			>
 				<h2
 					sx={{
-						pt: 3,
+						mt: 0,
 						mb: 0,
 						pb: 2,
+						color: "white",
 					}}
 				>
-					Join the fight to{" "}
-					<span sx={{ color: "primary" }}>
-						end Entergy’s <br sx={{ display: ["none", null] }} />
-						exploitation
-					</span>{" "}
-					of New Orleans.
+					Pledge to
+					<span sx={{ color: "accent" }}> halt your payments </span>
+					and
+					<span sx={{ color: "accent" }}> hold Entergy accountable</span>.
 				</h2>
 				<p
 					sx={{
@@ -62,6 +64,7 @@ export default function EmailForm() {
 						width: "100%",
 						maxWidth: ["90%", "380px"],
 						cursor: "pointer",
+						backgroundColor: "black",
 					}}
 				>
 					Get Involved

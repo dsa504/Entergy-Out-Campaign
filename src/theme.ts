@@ -1,13 +1,23 @@
 import type { Theme } from "theme-ui";
 
+/* 
+	Alts:
+	--theme-ui-colors-primary: #ff2a5b;
+    --theme-ui-colors-accent: #fdc737;
+    --theme-ui-colors-paper: #fff;
+    --theme-ui-colors-text: #000000; */
+
 const theme: Theme = {
 	breakpoints: ["1160px"],
 	space: [0, 8, 16, 32, 64, 128, 256],
 	fontSizes: [13, 16, 21, 25, 33, 49, 65, 97],
 	fonts: {
 		body: '"Open Sans", sans-serif',
-		heading: '"Barlow", sans-serif',
-		headingAlt: '"Barlow Condensed", sans-serif',
+		// heading: '"Barlow", sans-serif',
+		// headingAlt: '"Barlow Condensed", sans-serif',
+		// headingAlt: '"Champion Gothic Middleweight", sans-serif',
+		headingSecondary: '"Champion Gothic Featherweight", sans-serif',
+		heading: '"Champion Gothic Heavyweight", sans-serif',
 	},
 	sizes: {
 		normal: "840px",
@@ -15,7 +25,8 @@ const theme: Theme = {
 	},
 	fontWeights: {
 		body: 400,
-		heading: 900,
+		heading: 400,
+		headingSecondary: 400,
 		bold: 700,
 	},
 	lineHeights: {
@@ -26,8 +37,10 @@ const theme: Theme = {
 		body: "normal",
 	},
 	colors: {
-		primary: "#ed1685",
-		accent: "#e5ff37",
+		// primary: "#ed1685",
+		primary: "#ff2a5b",
+		// accent: "#e5ff37",
+		accent: "#fdc737",
 		paper: "#fff",
 		text: "#020310",
 	},
@@ -55,13 +68,15 @@ const theme: Theme = {
 				textDecoration: "none",
 			},
 			"h2,h3,h4,h5": {
-				fontFamily: "heading",
+				fontFamily: "headingSecondary",
 				lineHeight: "1em",
 				py: 2,
+				fontWeight: 400,
 			},
 			h1: {
-				fontFamily: "headingAlt",
+				fontFamily: "heading",
 				color: "primary",
+				fontWeight: 400,
 			},
 			h2: {
 				/* hero h2 */
@@ -106,8 +121,8 @@ const theme: Theme = {
 						borderBottom: 0,
 
 						cursor: "pointer",
-						fontSize: ["24px", "2vw"],
-						fontFamily: "heading",
+						fontSize: ["24px", "3vw"],
+						fontFamily: "headingSecondary",
 						background: "none",
 						display: "flex",
 						justifyContent: "space-between",

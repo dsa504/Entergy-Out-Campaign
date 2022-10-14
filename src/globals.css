@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Champion Gothic Heavyweight";  
+  src: 
+    url("fonts/ChampionGothic-Heavyweight.ttf") format("truetype")
+    url("fonts/ChampionGothic-Heavyweight.woff") format("woff")
+    url("fonts/ChampionGothic-Heavyweight.woff2") format("woff2")
+    ;
+}
+@font-face {
+font-family: "Champion Gothic Middleweight";  
+  src: 
+    url("fonts/ChampionGothic-Middleweight.ttf") format("truetype")
+    url("fonts/ChampionGothic-Middleweight.woff") format("woff")
+    url("fonts/ChampionGothic-Middleweight.woff2") format("woff2")
+    ;
+}
+@font-face {
+  font-family: "Champion Gothic Featherweight";  
+    src: 
+      url("fonts/ChampionGothic-Featherweight.ttf") format("truetype")
+      url("fonts/ChampionGothic-Featherweight.woff") format("woff")
+      url("fonts/ChampionGothic-Featherweight.woff2") format("woff2")
+      ;
+  }
