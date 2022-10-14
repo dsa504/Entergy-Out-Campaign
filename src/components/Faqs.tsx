@@ -16,11 +16,16 @@ export default function Faqs() {
 						A debt strike is a planned action amongst people that owe money to
 						some financial entity (student loan vendors, banks, etc.) to stop
 						paying their debts collectively. The more people join a debt strike,
-						the less money the debt collectors make. A debt strike is a direct
-						action where the people decide to exercise our collective power to
-						get what we deserve! And more often than not, direct action gets the
-						goods. Think about civil rights sit-ins or labor strikes. When we
-						fight together, we win.
+						the less money the debt collectors make.{" "}
+					</p>
+					<p>
+						A debt strike is a direct action where the people decide to exercise
+						<b>
+							our <em>collective</em> power
+						</b>{" "}
+						to get what we deserve! And more often than not, direct action gets
+						the goods. Think about civil rights sit-ins or labor strikes. When
+						we fight together, we win.
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
@@ -33,21 +38,26 @@ export default function Faqs() {
 				</Accordion.Header>
 				<Accordion.Content>
 					<p>
-						Without a mass movement of residents building and fighting for each
-						other, we are leaving the decision-making and policy-making up to
-						politicians who so often put their own profits and comforts above
-						the needs of the people they purport to represent. The New Orleans
-						City Council was elected by less than 27% turnout at the last
-						election. People already distrust our leaders and have become
-						disaffected by politics as usual. If we are ever going to truly
-						change the system, we need to put the power in the hands of the
-						people. A debt strike works to get Entergy’s attention by hitting
-						them where it hurts: their bottom line! By acting together and
+						Without a mass movement of residents building and fighting{" "}
+						<em>for</em> each other, we are leaving the decision-making and
+						policy-making up to politicians who so often put their own profits
+						and comforts above the needs of the people they purport to
+						represent. The New Orleans City Council was elected by less than 27%
+						turnout at the last election. People already distrust our leaders
+						and have become disaffected by politics as usual. If we are ever
+						going to truly change the system, we need to put the power in the
+						hands of the people.{" "}
+					</p>
+					<p>
+						A debt strike works to get Entergy’s attention by hitting them where
+						it hurts: <b>their bottom line</b>! By acting together and
 						disrupting Entergy’s cash flow, they risk becoming less profitable.
 						Entergy’s biggest fear is a cascading effect that could erase
 						millions in profits from C-suite executives, hedge fund managers,
-						and others that make a dollar off of our struggles to pay. Entergy’s
-						stocks are built off of our high bills and their continual
+						and others that make a dollar off of our struggles to pay.{" "}
+					</p>
+					<p>
+						Entergy’s stocks are built off of our high bills and their continual
 						disinvestment in our infrastructure. Without collective action,
 						there are no collective gains. It’s time we stand up and fight back
 						together with a debt strike.
@@ -68,7 +78,8 @@ export default function Faqs() {
 						fighting for the multiracial working class of our city and region.
 						You may know us from our yearly voter guides, or from our fight to
 						save New Orleans’ Libraries from being defunded. Interested in
-						joining us as a member? You can do that here: dsausa.org/join.
+						joining us as a member?{" "}
+						<a href="dsausa.org/join">You can do that here</a>.
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
@@ -113,8 +124,11 @@ export default function Faqs() {
 						utilities, giving us less control over our bills. Remember what
 						happened in Texas during the 2021 Freeze? Texas has a massively
 						unregulated energy grid. In some cases residents whose prices were
-						tied to fluctuating wholesale energy prices were facing bills for
-						thousands of dollars within a few days.
+						tied to fluctuating wholesale energy prices were facing bills{" "}
+						<a href="https://www.nytimes.com/2021/02/20/us/texas-storm-electric-bills.html">
+							for thousands of dollars within a few days
+						</a>
+						.
 					</p>
 					<p>
 						Finally, there’s the potential that this is already what Entergy
@@ -155,10 +169,10 @@ export default function Faqs() {
 						caused extended outages (Hurricane Zeta in 2020, Hurricane Ida in
 						2021), Entergy failed to provide power to the city for weeks and has
 						since done nothing to keep us safe from future outages. Instead,
-						they’ve said to prepare for 21 days without power for a Category 4
-						hurricane. As we face stronger storms year after year, that’s a
-						death sentence for some of our residents who need power to stay
-						cool, or to keep medications cold.
+						they’ve said to prepare for <b>21 days without power</b> for a
+						Category 4 hurricane. As we face stronger storms year after year,
+						that’s a death sentence for some of our residents who need power to
+						stay cool, or to keep medications cold.
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>

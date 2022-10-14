@@ -122,7 +122,8 @@ const theme: Theme = {
 						borderBottom: 0,
 
 						cursor: "pointer",
-						fontSize: ["24px", "3vw"],
+						fontSize: ["32px", "3vw"],
+						lineHeight: "1.2em",
 						fontFamily: "headingSecondary",
 						background: "none",
 						display: "flex",
@@ -144,6 +145,7 @@ const theme: Theme = {
 				p: {
 					my: 2,
 					mx: 2,
+					lineHeight: "1.5em",
 				},
 				"& div:last-of-type h3": {
 					borderBottom: "2px solid",
