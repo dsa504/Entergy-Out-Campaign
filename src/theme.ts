@@ -60,6 +60,7 @@ const theme: Theme = {
 			fontSize: 5,
 			mt: [0, 4],
 			mb: [0, 2],
+			textAlign: ["center", null],
 		},
 		root: {
 			color: "text",

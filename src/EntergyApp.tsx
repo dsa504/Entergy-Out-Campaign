@@ -83,7 +83,7 @@ const EntergyApp = () => {
 						</div>
 					</section>
 					<section sx={{ maxWidth: "normal", mx: "auto" }}>
-						<Themed.h2>Frequently Asked Questions</Themed.h2>
+						<Themed.h2 sx={{ border: 0 }}>Frequently Asked Questions</Themed.h2>
 
 						<Faqs />
 					</section>

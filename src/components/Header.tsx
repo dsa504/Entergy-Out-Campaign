@@ -37,6 +37,8 @@ export default function Header() {
 							listStyleType: "none",
 							px: 0,
 							display: "inline-flex",
+							width: ["180px", null],
+							textAlign: ["center", null],
 							li: {
 								pl: 3,
 								fontFamily: "heading",

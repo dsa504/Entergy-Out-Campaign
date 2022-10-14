@@ -30,9 +30,9 @@ export default function FormSection() {
 						mb: 0,
 						pb: 2,
 						color: "white",
-						fontSize: 6,
+						fontSize: [5, 6],
 						maxWidth: "600px",
-						mx: "auto",
+						mx: [1, "auto"],
 					}}
 				>
 					Pledge to
@@ -50,6 +50,7 @@ export default function FormSection() {
 					<ul
 						sx={{
 							textAlign: "left",
+							pr: [1, null],
 							li: {
 								pb: 2,
 							},
