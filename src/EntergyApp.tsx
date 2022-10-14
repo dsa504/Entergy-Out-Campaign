@@ -3,8 +3,8 @@
 // import React from "react";
 import { Container, Themed, ThemeProvider } from "theme-ui";
 
-import EmailForm from "./components/EmailForm";
 import Faqs from "./components/Faqs";
+import FormSection from "./components/FormSection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import theme from "./theme";
@@ -30,7 +30,7 @@ const EntergyApp = () => {
 						<Hero />
 					</section>
 					<section>
-						<EmailForm />
+						<FormSection />
 					</section>
 					<section sx={{ maxWidth: "normal", mx: "auto" }}>
 						<Themed.h2>We Demand:</Themed.h2>

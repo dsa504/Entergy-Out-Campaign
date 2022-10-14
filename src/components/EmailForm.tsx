@@ -1,88 +1,16 @@
 /** @jsxImportSource theme-ui */
-import { Button } from "theme-ui";
-
 export default function EmailForm() {
 	return (
-		<div
+		<iframe
+			title="Make Entergy Pay Pledge Form"
+			src="https://d0d500bf.sibforms.com/serve/MUIEAFSv8gjG1XSWkCMJG7OIrlOC5z8OrGpxYjIZvufrUkhNyYy5z4HNCpRL9vZB1Z5hE6vVxKXM2RlKfXuhH81RuYr69K5kdtHaap43MRhhL9GBq6fs2ohK6-IvOEmbiRs9ZxCY_U05PPK_gk4w0MS3S6CtckwPYzaapj2XQJJGhbNVvueisQx3cu3HVhikevwf3Zs7daLWmOqM"
+			frameBorder="0"
+			scrolling="auto"
+			allowFullScreen
 			sx={{
-				backgroundColor: "black",
-				textAlign: "center",
-				color: "primary",
-				pb: 4,
-				pt: 2,
-				mt: 0,
+				height: "100%",
+				width: "100%",
 			}}
-		>
-			<div
-				sx={{
-					maxWidth: "normal",
-					mx: "auto",
-				}}
-			>
-				<h2
-					sx={{
-						mt: 0,
-						mb: 0,
-						pb: 2,
-						color: "white",
-						fontSize: 6,
-						maxWidth: "600px",
-						mx: "auto",
-					}}
-				>
-					Pledge to
-					<span sx={{ color: "accent" }}> halt your payments </span>
-					and
-					<span sx={{ color: "accent" }}> hold Entergy accountable</span>.
-				</h2>
-				<div
-					sx={{
-						maxWidth: "tight",
-						mx: "auto",
-						px: [1, null],
-					}}
-				>
-					<ul
-						sx={{
-							textAlign: "left",
-							li: {
-								pb: 2,
-							},
-						}}
-					>
-						<li>
-							We are demanding a <b>ban on all residential power cutoffs</b> and
-							the{" "}
-							<b>
-								cancellation of all residential bill debts going back to the
-								start of the pandemic
-							</b>
-							.
-						</li>
-						<li>
-							We are <b>organizing 10,000 of our fellow New Orleanians</b> to
-							pledge to <b>stop paying Entergy bills</b> until Entergy (or the
-							New Orleans City Council) addresses these demands.
-						</li>
-						<li>
-							Once we reach 10,000 pledges, we will <b>begin the strike.</b>
-						</li>
-					</ul>
-				</div>
-				<Button
-					sx={{
-						width: "100%",
-						maxWidth: ["90%", "380px"],
-						cursor: "pointer",
-						backgroundColor: "accent",
-						color: "black",
-						fontFamily: "heading",
-						boxShadow: "5px 6px #ff2a5b",
-					}}
-				>
-					Sign the Pledge
-				</Button>
-			</div>
-		</div>
+		/>
 	);
 }
