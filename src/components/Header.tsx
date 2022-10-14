@@ -10,7 +10,7 @@ export default function Header() {
 		>
 			<div
 				sx={{
-					width: ["100%", "1100px"],
+					width: ["100%", "1200px"],
 					textAlign: "left",
 					mx: "auto",
 					display: "inline-flex",
@@ -23,7 +23,7 @@ export default function Header() {
 					alt="Make Entergy Pay"
 					sx={{
 						width: "15vw",
-						maxWidth: "500px",
+						maxWidth: "140px",
 						display: "block",
 						pt: "20px",
 					}}
@@ -31,10 +31,12 @@ export default function Header() {
 				<ul
 					sx={{
 						listStyleType: "none",
-						px: 2,
+						px: 0,
 						display: "inline-flex",
 						li: {
-							px: 2,
+							pl: 2,
+							fontFamily: "heading",
+							fontSize: 3,
 						},
 					}}
 				>

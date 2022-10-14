@@ -6,6 +6,7 @@ import { Container, Themed, ThemeProvider } from "theme-ui";
 import EmailForm from "./components/EmailForm";
 import Faqs from "./components/Faqs";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 import theme from "./theme";
 
 const EntergyApp = () => {
@@ -22,57 +23,11 @@ const EntergyApp = () => {
 				<Container>
 					<section
 						sx={{
-							mx: [0, 0],
 							backgroundColor: "accent",
 							backgroundImage: "url(images/noise-yellow.svg)",
 						}}
 					>
-						<div
-							sx={{
-								textAlign: "center",
-							}}
-						>
-							<img
-								src="./images/angry-entergy.min.svg"
-								alt="Make Entergy Pay"
-								sx={{
-									width: "70vw",
-									maxWidth: "500px",
-									display: "block",
-									mx: "auto",
-									pt: "20px",
-								}}
-							/>
-							<div
-								sx={{
-									fontFamily: "heading",
-									fontSize: ["7.5vw", "80px"],
-									textTransform: "uppercase",
-									lineHeight: ".85em",
-									pt: ["8vw", "1vw"],
-									display: ["block", "inline-block"],
-									width: [null, "normal"],
-									mx: [null, "auto"],
-									px: ["5vw"],
-									pb: ["5vw"],
-									textAlign: "left",
-								}}
-							>
-								<div>
-									Entergy made{" "}
-									<span sx={{ color: "primary" }}>$1.2 billion</span> <br />
-									in profits last year. <br />
-								</div>
-								<div
-									sx={{
-										pt: "5vw",
-									}}
-								>
-									It’s time for entergy to{" "}
-									<span sx={{ color: "primary" }}>pay their fair share</span>.
-								</div>
-							</div>
-						</div>
+						<Hero />
 					</section>
 					<section>
 						<EmailForm />

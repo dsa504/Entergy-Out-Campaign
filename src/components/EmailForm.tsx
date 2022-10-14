@@ -9,7 +9,7 @@ export default function EmailForm() {
 				textAlign: "center",
 				color: "primary",
 				pb: 4,
-				pt: 0,
+				pt: 2,
 				mt: 0,
 			}}
 		>
@@ -25,6 +25,9 @@ export default function EmailForm() {
 						mb: 0,
 						pb: 2,
 						color: "white",
+						fontSize: 6,
+						maxWidth: "600px",
+						mx: "auto",
 					}}
 				>
 					Pledge to
@@ -32,42 +35,53 @@ export default function EmailForm() {
 					and
 					<span sx={{ color: "accent" }}> hold Entergy accountable</span>.
 				</h2>
-				<p
+				<div
 					sx={{
 						maxWidth: "tight",
 						mx: "auto",
 						px: [1, null],
 					}}
 				>
-					We deserve cheaper, more reliable electricity from cleaner energy
-					sources. Enter your email and we'll let you know about protests,
-					actions and how you can fight back against Entergy.
-				</p>
-				<input
-					type="email"
-					placeholder="Enter Your Email for Updates"
-					sx={{
-						fontSize: 2,
-						p: 2,
-						display: "block",
-						maxWidth: ["90%", "380px"],
-						mx: "auto",
-						width: "100%",
-						boxShadow: "5px 6px #020310",
-						borderColor: "text",
-						mb: 2,
-						mt: 3,
-					}}
-				/>
+					<ul
+						sx={{
+							textAlign: "left",
+							li: {
+								pb: 2,
+							},
+						}}
+					>
+						<li>
+							We are demanding a <b>ban on all residential power cutoffs</b> and
+							the{" "}
+							<b>
+								cancellation of all residential bill debts going back to the
+								start of the pandemic
+							</b>
+							.
+						</li>
+						<li>
+							We are <b>organizing 10,000 of our fellow New Orleanians</b> to
+							pledge to
+							<b>stop paying Entergy bills</b> until Entergy (or the New Orleans
+							City Council) addresses these demands.
+						</li>
+						<li>
+							Once we reach 10,000 pledges, we will <b>begin the strike.</b>
+						</li>
+					</ul>
+				</div>
 				<Button
 					sx={{
 						width: "100%",
 						maxWidth: ["90%", "380px"],
 						cursor: "pointer",
-						backgroundColor: "black",
+						backgroundColor: "accent",
+						color: "black",
+						fontFamily: "heading",
+						boxShadow: "5px 6px #ff2a5b",
 					}}
 				>
-					Get Involved
+					Sign the Pledge
 				</Button>
 			</div>
 		</div>
