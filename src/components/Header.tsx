@@ -61,14 +61,14 @@ export default function Header({
 								display: ["none", "block"],
 							}}
 						>
-							<a href="">The Demands</a>
+							<a href="#demands">The Demands</a>
 						</li>
 						<li
 							sx={{
 								display: ["none", "block"],
 							}}
 						>
-							<a href="">FAQs</a>
+							<a href="#faqs">FAQs</a>
 						</li>
 						<li sx={{ pr: 1 }}>
 							<Button

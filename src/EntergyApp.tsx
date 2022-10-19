@@ -41,7 +41,11 @@ const EntergyApp = () => {
 						/>
 					</section>
 					<section sx={{ maxWidth: "normal", mx: "auto" }}>
-						<Themed.h2>We Demand:</Themed.h2>
+						<a id="demands" sx={{ position: "relative", top: "-80px" }}>
+							<></>
+						</a>
+						<Themed.h2 sx={{ pt: 3 }}>We Demand:</Themed.h2>
+
 						<div
 							sx={{
 								border: [null, "1px solid"],
@@ -91,6 +95,9 @@ const EntergyApp = () => {
 						</div>
 					</section>
 					<section sx={{ maxWidth: "normal", mx: "auto" }}>
+						<a id="faqs" sx={{ position: "relative", top: "-20px" }}>
+							<br />
+						</a>
 						<Themed.h2 sx={{ border: 0 }}>Frequently Asked Questions</Themed.h2>
 
 						<Faqs />
