@@ -5,7 +5,7 @@ import * as Accordion from "@radix-ui/react-accordion";
 export default function Faqs() {
 	return (
 		<Accordion.Root type="multiple" className="accordion">
-			<Accordion.Item value="faq-1">
+			<Accordion.Item value="faq-what-is-a-debt-strike">
 				<Accordion.Header>
 					<Accordion.Trigger>
 						<span>What is a debt strike?</span> <Icon path={mdiChevronDown} />
@@ -29,7 +29,7 @@ export default function Faqs() {
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
-			<Accordion.Item value="faq-2">
+			<Accordion.Item value="faq-why-a-debt-strike">
 				<Accordion.Header>
 					<Accordion.Trigger>
 						<span>Why is a debt strike necessary?</span>{" "}
@@ -64,26 +64,38 @@ export default function Faqs() {
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
-			<Accordion.Item value="faq-3">
+			<Accordion.Item value="faq-what-do-we-gain">
 				<Accordion.Header>
 					<Accordion.Trigger>
-						<span>Who is organizing this?</span> <Icon path={mdiChevronDown} />
+						<span>What do we have to gain?</span> <Icon path={mdiChevronDown} />
 					</Accordion.Trigger>
 				</Accordion.Header>
 				<Accordion.Content>
+					<p>For one, we can have our demands met!</p>
 					<p>
-						This campaign is being led by the New Orleans Democratic Socialists
-						of America, an all-volunteer run organization of regular New Orleans
-						residents. We’re dedicated to fighting against capitalism, and
-						fighting for the multiracial working class of our city and region.
-						You may know us from our yearly voter guides, or from our fight to
-						save New Orleans’ Libraries from being defunded. Interested in
-						joining us as a member?{" "}
-						<a href="dsausa.org/join">You can do that here</a>.
+						We could win lower bills! Entergy is a multi-billion dollar entity
+						taking 10% of our income. What would you do with 10% of your
+						paycheck (after taxes!) back in your pocket?{" "}
+					</p>
+					<p>
+						We could win an end to residential shutoffs! When your money is
+						tight, and you have to choose between rent and lights, wouldn’t you
+						rather know that you could pay your Entergy bill later without
+						having the lights shut off?{" "}
+					</p>
+					<p>
+						We could win a path forward to updating our electric grid! We need
+						reliable power to keep us cool, and keep our jobs open, and we can’t
+						afford to have a bird or squirrel take down whole neighborhoods!{" "}
+					</p>
+					<p>
+						We could find ourselves on a path to full-scale municipalization,
+						where WE set the prices that WE pay; where WE determine what energy
+						sources that WE get to use.
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
-			<Accordion.Item value="faq-4">
+			<Accordion.Item value="faq-whats-the-alternative">
 				<Accordion.Header>
 					<Accordion.Trigger>
 						<span>What's the alternative to Entergy?</span>{" "}
@@ -101,7 +113,8 @@ export default function Faqs() {
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
-			<Accordion.Item value="faq-5">
+
+			<Accordion.Item value="faq-what-about-breaking-up-entergy">
 				<Accordion.Header>
 					<Accordion.Trigger>
 						<span>
@@ -138,7 +151,7 @@ export default function Faqs() {
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
-			<Accordion.Item value="faq-6">
+			<Accordion.Item value="faq-other-cities-municipal">
 				<Accordion.Header>
 					<Accordion.Trigger>
 						<span>Do other cities have municipal power?</span>{" "}
@@ -154,7 +167,158 @@ export default function Faqs() {
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
-			<Accordion.Item value="faq-7">
+			<Accordion.Item value="faq-what-are-the-risks">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>So what are the risks?</span> <Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						For one, we understand that we are risking shutoffs if we do not
+						reach a critical mass of participants. But, we’ve already lived
+						through the city-wide disaster that was Hurricane Ida, and we
+						continue to risk month-long shutoffs already with each hurricane
+						coming our way, especially if we do nothing. At this point, shutoffs
+						are the biggest threat to Entergy customers. A disconnect notice
+						will appear in your mailbox before your energy is disconnected. For
+						those who are especially concerned with their service or credit
+						being interrupted, but still want to participate in the pledge, we
+						may be able to offer participants assistance with Entergy’s own
+						website to ask{" "}
+						<a href="https://www.entergy-louisiana.com/bill-help/#:~:text=Payment%20Extension&text=Call%201%2D800%2DENTERGY%20(,Request%20an%20extension%20through%20myEntergy.">
+							for bill extensions and other resources
+						</a>{" "}
+						that might be available.
+					</p>
+					<p>
+						We'll only go ahead with the debt strike if we have power in
+						numbers. So, if Entergy decides to try to disconnect people, they'll
+						be forced to first contact thousands or even more customers about
+						the possibility of shutoffs. Then they'll have to give a chance to
+						set up a payment plan before taking further action. It'll cause
+						paralysis and create a months-long backlog. We are very clear in
+						that everyone that pledges to strike also pledges to defend the
+						strike and that means protecting and supporting each other that are
+						threatened by Entergy. We will look after each other in this
+						movement and build the solidarity to do that.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-will-striking-affect-my-credit-score">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>Will striking affect my credit score?</span>{" "}
+						<Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						Entergy holds power over its customers by punishing them, so even a
+						single late payment may affect your credit score. However, there are
+						already thousands of customers who are unable to pay fully, or on
+						time, who are already experiencing negative credit impacts and
+						struggling to make ends meet even under the current shutoff
+						moratorium. And, when prices go up and our energy usage increases
+						this winter, thousands more will miss payments, further increasing
+						these burdens. It's important we take action together to stop it
+						getting to that stage.
+					</p>
+					<p>
+						Remember, a credit report is a bit like an employer or landlord
+						reference: it can have a big effect on your life, but it’s also a
+						way for companies to have power over you to stop you doing anything
+						that might be against their interests. That doesn’t mean it should
+						stop you from complaining when something is wrong, or from
+						withholding payment sometimes if you need to.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-can-my-landlord-evict-me">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>
+							Can my landlord evict me if I don’t pay my Entergy bills?
+						</span>{" "}
+						<Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						Unless your Entergy bills are included in your rent, your landlord
+						should have nothing to do with your light bill, unless there is an
+						(unlikely) provision about your electricity and gas bill in your
+						lease agreement. Your landlord will only know if you haven't paid if
+						you tell them. If your Entergy bills are included in your rent, you
+						won't have a choice about paying your bills unless you don't pay
+						your rent, in which case your landlord could decide to evict you for
+						nonpayment.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-who-can-participate">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>Who can participate?</span> <Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						Any customer of Entergy New Orleans. We have to be clear here, that
+						while we want to help all Entergy customers, our situation in New
+						Orleans is unique in that our city has some local control over our
+						utility in the form of City Council oversight of Entergy New
+						Orleans. At this time, it seems appropriate to limit pledges to New
+						Orleans zip-codes only. However, please{" "}
+						<a href="mailto:hello@dsaneworleans.org">reach out</a>
+						(if you’re in Louisiana and curious about building your own
+						campaign.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-why-now">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>Why now?</span> <Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						As of November 1st, we’re facing a backslide to business-as-usual
+						for Entergy New Orleans. That’s unacceptable. After two major storms
+						caused extended outages (Hurricane Zeta in 2020, Hurricane Ida in
+						2021), Entergy failed to provide power to the city for weeks and has
+						since done nothing to keep us safe from future outages. Instead,
+						they’ve said to prepare for{" "}
+						<a href="https://www.nola.com/news/article_95f17024-0c66-11ed-a73d-dbc4ea326b63.html">
+							21 days without power
+						</a>{" "}
+						for a Category 4 hurricane. As we face stronger storms year after
+						year, that’s a death sentence for some of our residents who need
+						power to stay cool, or to keep medications cold.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-who-is-organizing-this">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>Who is organizing this?</span> <Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						This campaign is being led by the New Orleans Democratic Socialists
+						of America, an all-volunteer run organization of regular New Orleans
+						residents. We’re dedicated to fighting against capitalism, and
+						fighting for the multiracial working class of our city and region.
+						You may know us from our yearly voter guides, or from our fight to
+						save New Orleans’ Libraries from being defunded. Interested in
+						joining us as a member?{" "}
+						<a href="dsausa.org/join">You can do that here</a>.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-isnt-there-a-moratorium">
 				<Accordion.Header>
 					<Accordion.Trigger>
 						<span>Didn't Entergy agree to a moratorium on shutoffs? </span>
@@ -176,7 +340,36 @@ export default function Faqs() {
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
-			<Accordion.Item value="faq-8">
+			<Accordion.Item value="faq-my-bill-is-insane">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>My bill is insane! What can I do?</span>{" "}
+						<Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						If you haven’t already, Entergy does have a few scant{" "}
+						<a href="https://www.entergy-neworleans.com/bill-help/">
+							resources on their website for New Orleans customers
+						</a>
+						. However, be advised that accessing assistance from Entergy is
+						incredibly burdensome, time-consuming, and difficult to navigate.
+						New Orleans utility bill assistance programs are similarly difficult
+						to navigate on our city’s website. However, those{" "}
+						<a href="https://nola.gov/community-development/utility-assistance-program/">
+							resources are listed here
+						</a>
+						. For more information or assistance on filling this out, we suggest
+						reaching out to your{" "}
+						<a href="https://council.nola.gov/councilmembers/">
+							city councilmember
+						</a>
+						.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-how-can-i-help">
 				<Accordion.Header>
 					<Accordion.Trigger>
 						<span>How can I help fight back?</span>{" "}
