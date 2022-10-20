@@ -100,7 +100,7 @@ const EntergyApp = () => {
 						</a>
 						<Themed.h2 sx={{ border: 0 }}>Frequently Asked Questions</Themed.h2>
 
-						<Faqs />
+						<Faqs formhandler={toggleEmailForm} />
 					</section>
 					<footer>
 						<div

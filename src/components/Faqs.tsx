@@ -1,8 +1,13 @@
 import { mdiChevronDown } from "@mdi/js";
 import Icon from "@mdi/react";
 import * as Accordion from "@radix-ui/react-accordion";
+import { Dispatch, SetStateAction } from "react";
 
-export default function Faqs() {
+export default function Faqs({
+	formhandler,
+}: {
+	formhandler: Dispatch<SetStateAction<boolean>>;
+}) {
 	return (
 		<Accordion.Root type="multiple" className="accordion">
 			<Accordion.Item value="faq-what-is-a-debt-strike">
@@ -383,7 +388,70 @@ export default function Faqs() {
 						about extending the campaign in your neighborhood. Want to dig
 						deeper? Drop us a line at{" "}
 						<a href="mailto:hello@dsaneworleans.org">hello@dsaneworleans.org</a>{" "}
-						or text _______ and we’ll have an organizer reach back out to you.{" "}
+						and we’ll have an organizer reach back out to you.{" "}
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-how-can-i-support">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>
+							I can’t risk having my power get shut off. Is there any way I can
+							still support this campaign?
+						</span>{" "}
+						<Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						Absolutely! We understand certain folks will have mitigating
+						circumstances that may mean that participating in the debt strike
+						itself isn’t possible for them. However, you can still be a big help
+						in our outreach efforts to connect with other local residents facing
+						high Entergy bills! Please consider volunteering by{" "}
+						<a
+							onClick={() => formhandler(true)}
+							onKeyPress={() => formhandler(true)}
+							role="button"
+							tabIndex={0}
+						>
+							signing up here
+						</a>
+						.
+					</p>
+				</Accordion.Content>
+			</Accordion.Item>
+			<Accordion.Item value="faq-i-dont-live-in-new-orleans-can-i-participate">
+				<Accordion.Header>
+					<Accordion.Trigger>
+						<span>I don’t live in New Orleans. How can I participate?</span>{" "}
+						<Icon path={mdiChevronDown} />
+					</Accordion.Trigger>
+				</Accordion.Header>
+				<Accordion.Content>
+					<p>
+						At the moment, our debt strike is focused on Entergy New Orleans,
+						because it is uniquely vulnerable to corrective action from the
+						city’s local government. Unfortunately, in the rest of Louisiana,
+						Entergy is regulated by the state Public Service Commission, which
+						generally has a much cozier relationship with Entergy than the New
+						Orleans City Council. However, we do hope to expand this campaign
+						beyond New Orleans in the future, and would love to connect with
+						ratepayers and groups organizing against Entergy in their own
+						communities - reach out to us at{" "}
+						<a href="mailto:hello@dsaneworleans.org">hello@dsaneworleans.org</a>
+						. If you’re outside of Orleans Parish, but in the Greater New
+						Orleans area, you can also volunteer in our New Orleans outreach
+						efforts by{" "}
+						<a
+							onClick={() => formhandler(true)}
+							onKeyPress={() => formhandler(true)}
+							role="button"
+							tabIndex={0}
+						>
+							signing up here
+						</a>
+						.
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
