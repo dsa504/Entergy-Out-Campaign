@@ -319,7 +319,7 @@ export default function Faqs({
 						You may know us from our yearly voter guides, or from our fight to
 						save New Orleans’ Libraries from being defunded. Interested in
 						joining us as a member?{" "}
-						<a href="dsausa.org/join">You can do that here</a>.
+						<a href="https://dsausa.org/join">You can do that here</a>.
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
