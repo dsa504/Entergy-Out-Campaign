@@ -275,9 +275,8 @@ export default function Faqs({
 						utility in the form of City Council oversight of Entergy New
 						Orleans. At this time, it seems appropriate to limit pledges to New
 						Orleans zip-codes only. However, please{" "}
-						<a href="mailto:hello@dsaneworleans.org">reach out</a>
-						(if you’re in Louisiana and curious about building your own
-						campaign.
+						<a href="mailto:hello@dsaneworleans.org">reach out</a> if you’re in
+						Louisiana and curious about building your own campaign.
 					</p>
 				</Accordion.Content>
 			</Accordion.Item>
