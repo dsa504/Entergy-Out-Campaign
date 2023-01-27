@@ -70,6 +70,19 @@ export default function Header({
 						>
 							<a href="#faqs">FAQs</a>
 						</li>
+						<li
+							sx={{
+								display: ["none", "block"],
+							}}
+						>
+							<a
+								href="https://docs.google.com/document/d/1na5fQSzLjmIVvddTPU0HyAL108L2o6FXsVTj-rGHibg/edit?usp=sharing"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Toolkit
+							</a>
+						</li>
 						<li sx={{ pr: 1 }}>
 							<Button
 								onClick={() => formhandler(true)}
