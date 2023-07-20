@@ -151,6 +151,77 @@ const theme: Theme = {
 					borderBottom: "2px solid",
 				},
 			},
+			".splide-wrapper": {
+				color: "paper",
+				background: "text",
+				textAlign: "center",
+				mt: 4,
+				".splide__arrow": {
+					background: "primary",
+				},
+				".splide__arrows": {
+					zIndex: 100,
+				},
+				".splide__pagination__page": {
+					opacity: 0.3,
+				},
+				".splide__pagination__page.is-active": {
+					background: "accent",
+					opacity: 1,
+				},
+				".splide__list": {
+					alignItems: "center",
+				},
+				".splide__track": {
+					width: "100%",
+				},
+				".quotemarks": {
+					mt: -4,
+					opacity: 0.3,
+					pointerEvents: "none",
+					width: "100%",
+					position: ["relative", "absolute"],
+					color: "accent",
+					zIndex: "2",
+					fontSize: 500,
+					mx: "auto",
+					display: ["none", "block"],
+					height: 600,
+					mb: -100,
+					overflow: "hidden",
+					".l": {
+						float: "left",
+						mt: "-150px",
+						ml: "30px",
+					},
+					".r": {
+						float: "right",
+						mt: "130px",
+						mr: "20px",
+					},
+				},
+
+				".stories": {
+					color: "paper",
+					background: "text",
+					px: [1, 2],
+					".story": {
+						px: [1, 2],
+						pt: 3,
+						mx: "auto",
+						maxWidth: "100%",
+						width: ["100%", "80%"],
+						display: "block",
+						fontSize: [2, 3],
+						lineHeight: [1.2, "1.87em"],
+					},
+					".name": {
+						fontStyle: "italic",
+						opacity: 0.7,
+						pb: [3],
+					},
+				},
+			},
 			footer: {
 				width: "100%",
 				height: "140px",

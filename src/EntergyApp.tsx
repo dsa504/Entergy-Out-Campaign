@@ -8,6 +8,7 @@ import Faqs from "./components/Faqs";
 import FormSection from "./components/FormSection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Stories from "./components/Stories";
 import theme from "./theme";
 
 const EntergyApp = () => {
@@ -93,6 +94,9 @@ const EntergyApp = () => {
 								.
 							</p>
 						</div>
+					</section>
+					<section>
+						<Stories />
 					</section>
 					<section sx={{ maxWidth: "normal", mx: "auto" }}>
 						<a id="faqs" sx={{ position: "relative", top: "-20px" }}>
