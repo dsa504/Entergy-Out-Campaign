@@ -58,12 +58,11 @@ const EntergyApp = () => {
 						>
 							<h3>End all residential shutoffs</h3>
 							<p>
-								Utilities should be about providing reliable, safe power to
-								residents, not about investor profit. In an era of economic
-								instability, rising costs, and worsening hurricanes, it’s more
-								important than ever that no child in New Orleans is left doing
-								homework in the dark. We demand an indefinite end to all
-								residential shutoffs.
+							Utilities should be about providing reliable, safe power to residents,
+							not about investor profit. In an era of economic instability,
+							rising costs, and worsening hurricanes, <b>it’s more important than
+							ever that no child in New Orleans is left doing homework in the
+							dark.</b> We demand an indefinite end to all residential shutoffs.
 							</p>
 						</div>
 						<div
@@ -77,21 +76,31 @@ const EntergyApp = () => {
 						>
 							<h3>Cancel all residential debt</h3>
 							<p>
-								New Orleans has some of the{" "}
-								<a href="https://www.aceee.org/sites/default/files/pdf/fact-sheet/ses-louisiana-100917.pdf">
-									highest energy-cost burdens in the country
-								</a>
-								, and half of all low-income families in New Orleans spend over
-								10% of their income on electricity. While New Orleanians have
-								suffered through COVID, hurricanes, and record heat with little
-								to no assistance, Entergy New Orleans is guaranteed a 9.35%
-								profit every year, regardless of conditions. It’s time for
-								Entergy to <b>pay their fair share</b> and{" "}
-								<b>
-									cancel all residential bill debts going back to the start of
-									the pandemic
-								</b>
-								.
+								While New Orleanians have suffered through COVID, hurricanes,
+								and record heat with little to no assistance, Entergy New Orleans
+								is guaranteed a 9.35% profit every year, regardless of conditions. 
+								It’s time for Entergy to pay their fair share and cancel all
+								residential bill debts going back to the start of the pandemic.
+							</p>
+						</div>
+						<div
+							sx={{
+								border: [null, "1px solid"],
+								py: 1,
+								px: 3,
+								boxShadow: "5px 6px #020310",
+								mb: [1, 3],
+							}}
+						>
+							<h3>No more fee increases</h3>
+							<p>
+								New Orleans has some of the highest energy-cost burdens in the
+								country, and half of all low-income families in New Orleans
+								spend over 10% of their income on electricity. Entergy wants
+								to increase fees to collect $1 Billion for “Operation Gridiron”
+								in order to fortify the grid. Entergy makes more than enough
+								to pay for this themselves. We demand City Council deny any
+								new rate increases.
 							</p>
 						</div>
 					</section>

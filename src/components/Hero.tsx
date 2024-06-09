@@ -37,7 +37,7 @@ export default function Hero() {
 				}}
 			>
 				<div>
-					Entergy made <span sx={{ color: "primary" }}>$1.2 billion</span>{" "}
+					Entergy made <span sx={{ color: "primary" }}>$2.4 billion</span>{" "}
 					<br />
 					in profits last year. <br />
 				</div>
