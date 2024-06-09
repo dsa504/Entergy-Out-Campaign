@@ -58,11 +58,14 @@ const EntergyApp = () => {
 						>
 							<h3>End all residential shutoffs</h3>
 							<p>
-							Utilities should be about providing reliable, safe power to residents,
-							not about investor profit. In an era of economic instability,
-							rising costs, and worsening hurricanes, <b>it’s more important than
-							ever that no child in New Orleans is left doing homework in the
-							dark.</b> We demand an indefinite end to all residential shutoffs.
+								Utilities should be about providing reliable, safe power to
+								residents, not about investor profit. In an era of economic
+								instability, rising costs, and worsening hurricanes,{" "}
+								<b>
+									it’s more important than ever that no child in New Orleans is
+									left doing homework in the dark.
+								</b>{" "}
+								We demand an indefinite end to all residential shutoffs.
 							</p>
 						</div>
 						<div
@@ -77,10 +80,11 @@ const EntergyApp = () => {
 							<h3>Cancel all residential debt</h3>
 							<p>
 								While New Orleanians have suffered through COVID, hurricanes,
-								and record heat with little to no assistance, Entergy New Orleans
-								is guaranteed a 9.35% profit every year, regardless of conditions. 
-								It’s time for Entergy to pay their fair share and cancel all
-								residential bill debts going back to the start of the pandemic.
+								and record heat with little to no assistance, Entergy New
+								Orleans is guaranteed a 9.35% profit every year, regardless of
+								conditions.  It’s time for Entergy to pay their fair share and
+								cancel all residential bill debts going back to the start of the
+								pandemic.
 							</p>
 						</div>
 						<div
@@ -97,10 +101,10 @@ const EntergyApp = () => {
 								New Orleans has some of the highest energy-cost burdens in the
 								country, and half of all low-income families in New Orleans
 								spend over 10% of their income on electricity. Entergy wants
-								to increase fees to collect $1 Billion for “Operation Gridiron”
-								in order to fortify the grid. Entergy makes more than enough
-								to pay for this themselves. We demand City Council deny any
-								new rate increases.
+								increase fees to collect $1 Billion for “Operation Gridiron” in
+								in order to fortify the grid. Entergy makes more than enough for
+								this themselves. We demand City Council deny any new new new
+								rate increases.
 							</p>
 						</div>
 					</section>
