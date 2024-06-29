@@ -103,8 +103,8 @@ const EntergyApp = () => {
 								spend over 10% of their income on electricity. Entergy wants
 								increase fees to collect $1 Billion for “Operation Gridiron” in
 								in order to fortify the grid. Entergy makes more than enough for
-								this themselves. We demand City Council deny any new new new
-								rate increases.
+								this themselves. We demand City Council deny any new rate
+								increases.
 							</p>
 						</div>
 					</section>
